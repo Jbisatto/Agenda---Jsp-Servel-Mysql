@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap')
+	;
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+h1 {
+	text-align:center;
+	color: #4F4F4F;
+}
+
+.Botao1 {
+	text-decoration: none;
+	background-color: #A9A9A9;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+}
+
+.Botao2 {
+	text-decoration: none;
+	background-color: #000000;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+}
+.Botaoeditar {
+	text-decoration: none;
+	background-color: #696969;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+}
+.Caixa1 {
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #A9A9A9;
+	border-radius: 5px;
+}
+
+.Caixa2 {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #A9A9A9;
+	border-radius: 5px;
+}
+
+#caixa3 {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ff0000;
+}
+
+#tabela {
+	
+	margin-top: 100px;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+#tabela thead {
+	
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+	background-color: #696969;
+	color: #fff;
+}
+
+#tabela td {
+	border: 1px solid #ddd;
+	padding: 10px;
+
+}
+
+#tabela tbody {
+	border: 1px solid #ddd;
+	padding: 10px;
+	font-family: serif;
+
+}
+
+/* linhas pares (even) */
+.tabela tbody tr:nth-child(even) {
+    background-color: #CCC;
+}
+/* linhas ímpares (odd) */
+.tabela tbody tr:nth-child(odd) {
+    background-color: #FFF;
+}
+.espaco {
+  padding-left: 50px;
+}
+.espaco2 {
+  padding-left: 10px;
+}
